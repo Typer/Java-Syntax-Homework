@@ -16,9 +16,6 @@ public class FormattingNumbers {
         String inputA = Integer.toHexString(a);
         String inputAtwo = Integer.toString(a,2);
         String inputB = "0000000000".substring(inputAtwo.length())+inputAtwo;
-
-//        System.out.println(inputA);
-//        System.out.println(inputB);
         System.out.printf("|%-10s|%10s|%10.2f|%-10.3f|",inputA,inputB,b,c);
 
 
